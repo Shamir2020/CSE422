@@ -1,0 +1,3 @@
+[01]+ { fprintf(yyoutlog, "Scope No. %d: Token <CONST_BIN> Lexeme %s found\n\n",scopes, yytext);}
+
+[0-7]+ { fprintf(yyoutlog, "Scope No. %d: Token <CONST_OCTAL> Lexeme %s found\n\n",scopes, yytext); }
